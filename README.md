@@ -1,10 +1,10 @@
 # Keypoint Detection with Uncertainty Estimation
 
-This project implements keypoint detection for tomato pose estimation using two different approaches: **KP-RCNN** (Detectron2-based) and **YOLO-NAS** (SuperGradients-based), both enhanced with Monte Carlo Dropout for uncertainty quantification.
+This project implements keypoint detection for pose estimation using two different approaches: **KP-RCNN** (Detectron2-based) and **YOLO-NAS** (SuperGradients-based), both enhanced with Monte Carlo Dropout for uncertainty quantification.
 
 ## Project Overview
 
-The project focuses on detecting keypoints on tomatoes for agricultural applications, with uncertainty estimation to assess prediction reliability. This is particularly useful for robotic harvesting systems where prediction confidence is crucial for safe operation.
+The project focuses on detecting keypoints for agricultural applications, with uncertainty estimation to assess prediction reliability. This is particularly useful for robotic harvesting systems where prediction confidence is crucial for safe operation.
 
 ### Key Features
 - **Dual Architecture Support**: KP-RCNN and YOLO-NAS implementations
@@ -39,14 +39,14 @@ The project focuses on detecting keypoints on tomatoes for agricultural applicat
 Create and activate a virtual environment:
 
 ```bash
-conda create -n tomato_detection python=3.10.19
-conda activate tomato_detection
+conda create -n detection python=3.10.19
+conda activate detection
 ```
 
 ### 2. Install Dependencies
 
 ```bash
-cd tomato-tussen-detection-master/Tomato_Master_
+cd Uncertainty_Estimation
 pip install -r requirements.txt
 ```
 
@@ -190,4 +190,5 @@ The system provides rich visualizations including:
 ---
 
 **Note**: This project is designed for research and educational purposes in agricultural robotics and computer vision with uncertainty quantification.
+
 

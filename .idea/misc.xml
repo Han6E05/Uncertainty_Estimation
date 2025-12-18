@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+<<<<<<< HEAD
+    <option name="sdkName" value="Remote Python 3.8.20 (sftp://student@141.252.12.73:22/home/student/anaconda3/envs/hrnet_env/bin/python)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.8.20 (sftp://student@141.252.12.73:22/home/student/anaconda3/envs/hrnet_env/bin/python)" project-jdk-type="Python SDK" />
+=======
+    <option name="sdkName" value="Remote Python 3.8.20 (sftp://student@141.252.12.73:22/home/student/anaconda3/envs/hrnet_env/bin/python) (2)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="E:\Python\Anaconda\envs\torch" project-jdk-type="Python SDK" />
+>>>>>>> 65fa436acfef6efb42db0f2cd57e0ad235c8757a
+</project>
